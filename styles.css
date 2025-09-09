@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+body{
+	background-color:#111111;
+	
+}
+.container{
+	width:70%;
+	display:grid;
+	grid-template-columns:repeat(40,1fr);
+	grid-template-rows:repeat(20,1fr);
+	gap:3px;
+	margin:0px auto;
+	justify-content:center
+}
+.square{
+	background-color:#1d1d1d;
+	padding:6px;
+	cursor:pointer;
+}
